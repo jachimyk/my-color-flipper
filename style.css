@@ -1,4 +1,7 @@
+/* ------- fonts ------- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* variebles */
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -42,9 +45,7 @@
   --fixed-width: 620px;
 }
 
-/*=============== 
-  Global Styles
-===============*/
+/* ------- Global Styles ------- */
 *,
 ::after,
 ::before {
@@ -106,9 +107,7 @@ p {
   color: var(--clr-grey-5);
 }
 
-/*==============
-global classes
-===============*/
+/* ------- global classes -------- */
 .btn {
   font-family: var(--ff-primary);
   text-transform: uppercase;
@@ -146,9 +145,7 @@ global classes
   margin: 0 auto;
   max-width: 1170px;
 }
-/*=============== 
-  Nav
-===============*/
+/* ------- Nav ------- */
 nav {
   background: #000000;
   justify-content: space-around;
@@ -198,9 +195,7 @@ nav a:hover {
   color: #33e2aa;
 }
 
-/*=============== 
-  Container
-===============*/
+/*------- Container ------- */
 main {
   min-height: calc(100vh - 3rem);
   display: grid;
@@ -224,9 +219,7 @@ main {
   color: var(--clr-primary-5);
 }
 
-/*============
-media querry
-============ */
+/* ------- media querry ------- */
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
